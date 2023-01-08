@@ -1,0 +1,120 @@
+
+.navbar-brand{
+margin-right:30%;
+   margin-left:48px;
+
+}
+li{
+   padding-right:40px;
+}
+.btn{
+   border-style:solid;
+   color:white;
+   border-color:white;
+   border-radius:5rem;
+   height:40px;
+   width:200px;
+   font-weight:bold;
+   
+   
+}
+.head{
+   font-size:20px;
+}
+.col-sm-3{
+   border-style:solid;
+   border-width:1px;
+   border-color: black;
+}
+body{
+   font-family:sans-serif
+}
+.mybtn{
+   border-radius:5rem;
+   height:40px;
+   cursor:pointer;
+   width:200px;
+}
+.overlay{
+   position:absolute;
+   z-index:1;
+   top:30%;
+   left:15%;
+ transform:translate(-50%,50%);
+   color:white;
+font-size:14px;
+font-weight: bold;
+transform:scale(1);
+text-align: center;
+   transition:transform 0.5s;
+}
+.overlay:hover{
+   transition:0.3s all;
+   transform:scale(1.5);
+}
+.view{
+   background-color:transparent;
+}
+.view:hover{
+   background-color: white;
+   transition:0.3s all;
+}
+.mybtn a{
+   text-decoration: none;
+   color:white;
+}
+.view a{
+   text-decoration: none;
+   color:black;
+}
+
+.overlay1{
+
+position: absolute;
+top:1000px;
+   color:white;
+   font-size:16px;
+   text-align:center;
+   z-index:1;
+   font-weight:bold;
+   transform:scale(1);
+   transition:transform 0.5s;
+   right:134px;
+
+}
+.overlay1:hover{
+   transform:scale(1.5);
+}
+.view1{
+   background-color:transparent;
+
+}
+.view1:hover{
+   background-color:white;
+   cursor:pointer;
+}
+.myimage:hover{
+   transition:0.3s all;
+   display:block;
+   
+}
+.myimage{
+   opacity:1;
+   border:0;
+   transform:scale(1);
+   transition:transform 0.5s;
+}
+.myimage:hover{
+   opacity:0.5;
+   border:2px solid black;
+   border-radius:4px;
+   transform:scale(1.1);
+}
+.view1 a{
+   text-decoration:none;
+   color:black;
+}
+
+.overlay:hover{
+   transition:0.3s all;
+}
